@@ -1,11 +1,12 @@
-# ciclosDeVidaDeDesarrolloDeSoftware
+### ciclosDeVidaDeDesarrolloDeSoftware
 
-##Integrantes
+## Integrantes
 Sebastian Nieto 
 Brayan Burgos
 
-##Preguntas
+## Preguntas
 ¿Cuál(es) de las anteriores instrucciones se ejecutan y funcionan correctamente y por qué?
+
 >-Sin parámetros
 >-Parámetro: qwerty
 >-Parámetro: pentagon
