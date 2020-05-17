@@ -1,0 +1,19 @@
+----------------------- libro.txt -----------------------
+EL LIBRO MAS FAMOSO DEL MUNDO
+
+AUTORES:
+	JUAN ROMERO
+	SEBASTIAN VILLAMARIN
+	BRAYAN BURGOS
+	SEBASTIAN NIETO
+
+
+
+CAPITULO UNO
+
+
+CAPITULO DOS
+
+
+CAPITULO TRES
+---------------------------------------------------------

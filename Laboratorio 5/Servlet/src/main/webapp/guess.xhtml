@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3c.org/1999/xhtml"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:p="http://primefaces.org/ui"
+	xmlns:pt="http://xmlns.jcp.org/jsf/passthrough">
+	
+	<h:head>
+	</h:head>
+	
+	<h:body>
+        <h:form id="guess_form">
+		
+            <p:outputLabel value="#{guessBean.numero}" style="display:none;"></p:outputLabel>
+
+            <h3>Inserte su numero aqui</h3>
+            <p:inputText id="numeroJugador" type="int" binding="#{input}"></p:inputText>
+			
+            <h3>Intentos Realizados</h3>
+            <p:outputLabel value="#{guessBean.intentos}"></p:outputLabel>
+			
+            <h3>Estado</h3>
+            <p:outputLabel value="#{guessBean.estado}" id="estado"></p:outputLabel>
+			
+            <h3>Premio Acumulado</h3>
+            <p:outputLabel value="#{guessBean.acumulado}" id="acumulado" ></p:outputLabel>
+            
+            <h3></h3>
+            <p:commandButton value="Adivinar" actionListener="#{guessBean.guess(input.value)}" update="guess_form" ></p:commandButton>
+            <p:commandButton value="Reiniciar" actionListener="#{guessBean.restart}" update="guess_form"></p:commandButton>
+              
+ 		
+        </h:form>
+    </h:body>
+	
+	
+</html>

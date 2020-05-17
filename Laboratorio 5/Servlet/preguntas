@@ -1,0 +1,24 @@
+
+Pregunta 20:
+
+Post no muestra el ultimo parametro agregado en el link.
+Basicamente se utiliza para ocultar informacion del usuario.
+
+Pregunta 21:
+
+Es repetitivo pedir el id, muestra esa informacion varias veces.
+
+Diferencias entre los comandos GET and POST
+
+Los metodos que se utilizan son:
+
+GET
+POST
+PUT
+HEAD
+DELETE
+PATCH
+OPTIONS
+En escencia, la diferencia entre los dos es la forma en la que envian los datos. 
+
+
